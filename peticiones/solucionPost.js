@@ -5,7 +5,6 @@ const peticion1Post = async () => {
     method: 'POST',
     body: JSON.stringify({
         // Datos del nuevo post
-        id: 2,
         userId: 2,
         title: 'Romeo y Julieta',
         body: 'Es una historia de amor trágica escrita por William Shakespeare',
@@ -28,7 +27,6 @@ const peticion2Post = async () => {
     method: 'POST',
     body: JSON.stringify({
         // Datos del nuevo comentario
-        id : 3,
         userId: 3,
         name: 'María Pérez',
         body: 'Excelente artículo, muy informativo.',
