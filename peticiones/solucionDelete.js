@@ -8,19 +8,3 @@ const peticionDelete = async (id) => {
 }
 // Llamamos a la función para ejecutar la petición DELETE
 peticionDelete(3);
-// Función para verificar que el recurso ha sido eliminado realizando una petición GET
-const ModificacionesComparadas = async () => {
-    // Realizamos una petición GET para obtener todos los posts y verificar la eliminación
-    const respuesta = await fetch('http://localhost:3000/posts', {
-        method: 'GET'
-    });
-    // Convertimos la respuesta a formato JSON
-    const data = await respuesta.json();
-    // Retornamos los valores
-    return data;  
-}
-// Llamamos a la función para ejecutar la verificación
-ModificacionesComparadas().then(data => {
-    // Mostramos los datos obtenidos en la consola
-    console.log(data);
-});

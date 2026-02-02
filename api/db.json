@@ -55,7 +55,7 @@
     {
       "id": "1",
       "userId": 1,
-      "title": "Introducción a las API",
+      "title": "TECNOLOGÍAS MODERNAS",
       "body": "Conceptos básicos sobre APIs y su importancia."
     },
     {
@@ -63,12 +63,6 @@
       "userId": 2,
       "title": "HTTP y la web",
       "body": "Cómo funciona el protocolo HTTP."
-    },
-    {
-      "id": "3",
-      "userId": 3,
-      "title": "Arquitectura cliente-servidor",
-      "body": "Modelo de comunicación en aplicaciones web."
     },
     {
       "id": "4",
@@ -113,61 +107,7 @@
       "body": "Recomendaciones para diseñar APIs REST."
     },
     {
-      "id": "774a",
-      "title": "foo",
-      "body": "bar",
-      "userId": 1
-    },
-    {
-      "id": "3684",
-      "title": "Romeo y Julieta",
-      "body": "Es una historia de amor trágica escrita por William Shakespeare",
-      "userId": 2
-    },
-    {
-      "id": "f88f",
-      "title": "Romeo y Julieta",
-      "body": "Es una historia de amor trágica escrita por William Shakespeare",
-      "userId": 2
-    },
-    {
-      "id": "a7e1",
-      "userId": 2,
-      "title": "Romeo y Julieta",
-      "body": "Es una historia de amor trágica escrita por William Shakespeare"
-    },
-    {
-      "id": "5c85",
-      "userId": 2,
-      "title": "Romeo y Julieta",
-      "body": "Es una historia de amor trágica escrita por William Shakespeare"
-    },
-    {
-      "id": "6f2c",
-      "userId": 2,
-      "title": "Romeo y Julieta",
-      "body": "Es una historia de amor trágica escrita por William Shakespeare"
-    },
-    {
-      "id": "b09f",
-      "userId": 2,
-      "title": "Romeo y Julieta",
-      "body": "Es una historia de amor trágica escrita por William Shakespeare"
-    },
-    {
-      "id": "1eff",
-      "userId": 2,
-      "title": "Romeo y Julieta",
-      "body": "Es una historia de amor trágica escrita por William Shakespeare"
-    },
-    {
-      "id": "e964",
-      "userId": 2,
-      "title": "Romeo y Julieta",
-      "body": "Es una historia de amor trágica escrita por William Shakespeare"
-    },
-    {
-      "id": "c4d8",
+      "id": "8f55",
       "userId": 2,
       "title": "Romeo y Julieta",
       "body": "Es una historia de amor trágica escrita por William Shakespeare"
@@ -235,37 +175,13 @@
       "body": "Los códigos HTTP son importantes."
     },
     {
-      "id": "4bc3",
+      "id": 3,
       "userId": 3,
       "name": "María Pérez",
       "body": "Excelente artículo, muy informativo."
     },
     {
-      "id": "d2fd",
-      "userId": 3,
-      "name": "María Pérez",
-      "body": "Excelente artículo, muy informativo."
-    },
-    {
-      "id": "8eb7",
-      "userId": 3,
-      "name": "María Pérez",
-      "body": "Excelente artículo, muy informativo."
-    },
-    {
-      "id": "5a8d",
-      "userId": 3,
-      "name": "María Pérez",
-      "body": "Excelente artículo, muy informativo."
-    },
-    {
-      "id": "7a4b",
-      "userId": 3,
-      "name": "María Pérez",
-      "body": "Excelente artículo, muy informativo."
-    },
-    {
-      "id": "886a",
+      "id": "ab93",
       "userId": 3,
       "name": "María Pérez",
       "body": "Excelente artículo, muy informativo."
