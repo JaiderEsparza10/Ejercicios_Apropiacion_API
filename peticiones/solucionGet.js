@@ -11,7 +11,7 @@ const Peticion1Get = async () => {
 // Realizamos la segunda petición GET para obtener un usuario específico por su ID
 const peticion2Get = async () => {
     // Realizamos la petición GET para obtener el usuario con ID 3
-    const usuarioUnico = await fetch(`http://localhost:3000/users/3`);
+    const usuarioUnico = await fetch(`http://localhost:3000/users/5`);
     // Convertimos la respuesta a formato JSON
     const identificador = await usuarioUnico.json();
     // Mostramos los datos obtenidos en la consola
@@ -19,9 +19,9 @@ const peticion2Get = async () => {
     console.log(identificador)
 }
 // Realizamos la tercera petición GET para obtener un post específico por su ID
-const peticion3Get = async () => {
+const peticion3Get = async (id) => {
     // Realizamos la petición GET para obtener el post con ID 4
-    const usuarioPost = await fetch(`http://localhost:3000/posts/4`);
+    const usuarioPost = await fetch(`http://localhost:3000/posts/${id}`);
     // Convertimos la respuesta a formato JSON
     const identificador = await usuarioPost.json();
     // Mostramos los datos obtenidos en la consola
@@ -31,7 +31,7 @@ const peticion3Get = async () => {
 // Llamamos a las funciones para ejecutar las peticiones
 Peticion1Get();
 peticion2Get();
-peticion3Get();
+peticion3Get(5);
 
 
 
